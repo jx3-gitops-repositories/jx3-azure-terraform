@@ -22,5 +22,6 @@
 build
 
 # you may want to avoid checking in terraform state in case it has passwords and we are public repo
-#*.tfstate
+*.tfstate
+*.tfstate.backup
 .terraform

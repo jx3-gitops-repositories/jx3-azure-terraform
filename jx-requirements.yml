@@ -15,10 +15,8 @@ cluster:
   gitName: github
   gitServer: https://github.com
   namespace: jx
-  project:  ""
-  provider: gke
-  registry: gcr.io
-  zone: ""
+  provider: azure
+  registry: ""
 environments:
 - key: dev
   owner: ""
