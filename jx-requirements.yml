@@ -15,7 +15,7 @@ cluster:
   gitName: github
   gitServer: https://github.com
   namespace: jx
-  provider: azure
+  provider: aks
   registry: ""
 environments:
 - key: dev
