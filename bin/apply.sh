@@ -9,5 +9,4 @@ terraform apply
 eval "$(terraform output connect)"
 
 # output jx-requirements
-# output jx-requirements
 terraform output jx_requirements  >  jx-requirements.yml
