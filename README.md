@@ -23,7 +23,6 @@ on the command line when running the script below (do not commit these to source
 ## Creating/upgrading cloud resources
 
 Run the `./bin/apply.sh` script to generate the terraform resources and modify the `jx-requirements.yml` file.
-You will need to specify the following variables on the command line
 
 Now git commit and push any changes...
 
