@@ -24,6 +24,13 @@ repositories:
 - name: banzaicloud-stable
   url: https://kubernetes-charts.banzaicloud.com
 releases:
+- chart: bitnami/external-dns
+  version: 3.7.0
+  condition: jxRequirementsIngressExternalDNS.enabled
+  name: external-dns
+  namespace: jx-external-dns
+  values:
+    - versionStream/charts/bitnami/external-dns/values.yaml.gotmpl
 - chart: jenkins-x/jxboot-helmfile-resources
   version: 1.0.14
   name: jxboot-helmfile-resources
