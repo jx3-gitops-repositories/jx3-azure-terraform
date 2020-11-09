@@ -20,6 +20,10 @@ on the command line when running the script below (do not commit these to source
 | `jx_bot_username` | `false` | Bot username used to interact with the Jenkins X cluster git repository
 | `jx_bot_token` | `true` | Bot token used to interact with the Jenkins X cluster git repository
 
+To generate a token for the bot, you can use this link: https://github.com/settings/tokens/new?scopes=repo,read:user,read:org,user:email,write:repo_hook,delete_repo,admin:repo_hook
+
+This bot user needs to have write permission to write to any git repository used by Jenkins X. This can be done by adding the bot user to the git organisation level or individual repositories as a collaborator Add the new bot user to your Git Organisation, for now give it "Owner" permissions, we will reduce this to member permissions soon.
+
 ## Creating/upgrading cloud resources
 
 Run the `./bin/apply.sh` script to generate the terraform resources and modify the `jx-requirements.yml` file.
