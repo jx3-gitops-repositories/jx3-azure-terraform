@@ -36,6 +36,6 @@ git commit -a -m "chore: regenerated terraform"
 git push
 ```
 
-## Customizing Terraform
+## Terraform Inputs
 
-Please refer to the [jenkins-x/terraform-azurerm inputs](https://github.com/jenkins-x/terraform-azurerm-jx#inputs) for a list of all the possible configuration options you can modify in Terraform
+Please refer to the [jenkins-x/terraform-azurerm inputs](https://github.com/jenkins-x/terraform-azurerm-jx#inputs) for a list of all the possible configuration options you can modify in Terraform in the `main.tf` file
