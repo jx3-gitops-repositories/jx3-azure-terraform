@@ -24,7 +24,7 @@ releases:
   version: 3.2.0
   condition: jxRequirementsIngressExternalDNS.enabled
   name: external-dns
-  namespace: jx-external-dns
+  namespace: jx
   values:
   - versionStream/charts/bitnami/external-dns/values.yaml.gotmpl
 - chart: jenkins-x/jxboot-helmfile-resources
