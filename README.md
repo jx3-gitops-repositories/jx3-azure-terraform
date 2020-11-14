@@ -26,7 +26,7 @@ This bot user needs to have write permission to write to any git repository used
 
 ## Creating/upgrading cloud resources
 
-Run the `./bin/apply.sh` script to generate the terraform resources and modify the `jx-requirements.yml` file.
+Run the `./bin/apply.sh` script to generate the terraform resources.
 
 Now git commit and push any changes...
 
