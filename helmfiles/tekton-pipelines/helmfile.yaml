@@ -17,5 +17,5 @@ releases:
   forceNamespace: ""
   skipDeps: null
 templates: {}
-missingFileHandler: ""
+missingFileHandler: Warn
 renderedvalues: {}
